@@ -3,7 +3,7 @@ window.addEventListener('beforeunload', function() {
 	this.document.getElementById('loader').style.display = 'flex';
 });
 
-// Masque le loader après un certain temps (pour tester)
+// Masque le loader après un certain temps
 window.addEventListener('load', function() {
 	setTimeout(function() {
 		document.getElementById('loader').style.display = 'none';
