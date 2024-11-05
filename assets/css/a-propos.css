@@ -1,0 +1,85 @@
+/* ==== Page A-Propos CSS ==== */
+
+/* ==== Section aPropos CSS ==== */
+.aPropos{
+	margin-bottom: 2rem;
+	padding: 2rem 1rem;
+	background-color: #F3F4F6;
+	border-radius: 8px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.aPropos h1{
+	font-size: 2rem;
+	text-align: center;
+	color: #005F99;
+	margin-bottom: 1rem;
+}
+
+.aPropos h1:hover{
+	color: #1E90FF;
+}
+
+.aPropos p{
+	text-align: justify;
+	margin: 0 0.938rem;
+	font-size: 1rem;
+	color: #333333;
+	line-height: 1.6;
+	background-color: rgba(0, 95, 153, 0.1);
+	padding: 0.8rem;
+	border-radius: 5px;
+}
+
+.aPropos p:hover{
+	background-color: rgba(0, 95, 153, 0.2);
+}
+
+/* ==== Section Vidéo CSS ==== */
+.video{
+	margin-top: 2rem;
+	padding: 1rem;
+	background-color: #DFF0D8;
+	border-radius: 8px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.video h2{
+	text-align: center;
+	color: #59821C;
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+}
+
+.video video{
+	display: block;
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	border: 3px solid #005F99;
+	border-radius: 8px;
+}
+
+
+/* ==== Media Queries pour les écrans inférieur à 768px (Tablette) ==== */
+@media (max-width: 768px){
+	.aPropos h1{
+		font-size: 1.5rem;
+	}
+
+	.aPropos p{
+		font-size: 0.9rem;
+	}
+}
+
+/* ==== Media Queries pour les écrans inférieur à 480px (Mobile) ==== */
+@media (max-width: 480px){
+	.aPropos h1{
+		font-size: 1.3rem;
+	}
+
+	.aPropos p{
+		font-size: 0.8rem;
+	}
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Evaluation - Contact</title>
+	<!-- Lien BoxIcons -->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<!-- Liens CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/contact.css">
+</head>
+<body>
+	<!-- Header Début -->
+	<header>
+
+		<!-- Logo Début -->
+		<div class="logo">
+			<a href="index.html" title="Vous rammène sur notre page d'accueil.">
+				<img src="assets/img/image-galerie.jpg" alt="Imagine que c'est un logo d'entreprise ok ?">
+			</a>
+		</div>
+		<!-- Logo Fin -->
+
+		<!-- Nav Début -->
+		<nav class="navbar">
+			<ul>
+				<li><a href="index.html" title="Vous rammène sur notre page d'accueil.">Accueil</a></li>
+				<li><a href="galerie.html" title="Vous redirige sur notre galerie photo.">Galerie</a></li>
+				<li><a href="contact.html" title="Vous redirige sur un formulaire de contact.">Contact</a></li>
+				<li><a href="a-propos.html" title="Vous redirige sur une notre page de présentation.">A Propos</a></li>
+			</ul>
+		</nav>
+		<!-- Nav Fin -->
+
+	</header>
+	<!-- Header Fin -->
+
+	<main>
+		<!-- Section Contact Début -->
+		<section class="contact">
+			<h1>Nous Contacter</h1>
+
+			<!-- Formulaire Début -->
+			<form action="submit.php" method="post" enctype="multipart/form-data">
+				<fieldset>
+					<legend>Formulaire de contact</legend>
+					<!-- Nom -->
+					<div>
+						<label for="nom">Votre nom :</label>
+						<input type="text" name="nom" id="nom" required placeholder="Dutrouc...">
+					</div>
+	
+					<!-- Prénom -->
+					<div>
+						<label for="prenom">Votre prénom :</label>
+						<input type="text" name="prenom" id="prenom" required placeholder="Jean-cule...">
+					</div>
+	
+					<!-- Mail -->
+					<div>
+						<label for="email">Votre adresse mail :</label>
+						<input type="email" name="email" id="email" required placeholder="tavie@gmail.com...">
+					</div>
+	
+					<!-- Téléphone -->
+					<div>
+						<label for="tel">Votre numéro de téléphone :</label>
+						<input type="tel" name="tel" id="tel" pattern="[0-9]{10}" required placeholder="0788991122">
+					</div>
+	
+					<!-- Sujet du message -->
+					<div>
+						<label for="sujet">Sujet du message :</label>
+						<input type="text" name="sujet" id="sujet" required>
+					</div>
+	
+					<!-- Message -->
+					<div>
+						<label for="message">Votre message :</label>
+						<textarea name="message" id="message" rows="5" required placeholder="Votre message ici..."></textarea>
+					</div>
+	
+					<!-- Bouton pour soumettre le formulaire -->
+					<button type="submit" name="submitContactForm">Soumettre le formulaire</button>
+				</fieldset>
+
+			</form>
+			<!-- Formulaire Fin -->
+
+			<!-- Adresse de l'entreprise -->
+			<section>
+				<h2>Nos Coordonnées</h2>
+				<address>
+					<p><strong>Notre Adresse :</strong></p>
+					<p>69 rue des glandeurs,<br> 69420 JeSaisPasOu, Dans le monde lol</p>
+					<p>Téléphone : <a href="tel:+337777777777" title="Appeler-nous au 07 77 77 77 77">07 77 77 77 77</a></p>
+					<p>Email : <a href="mailto:kenzasuck@gmail.com" title="Envoyer un mail à unemailtresserieuse@gmail.com">unemailtresserieuse@gmail.com</a></p>
+				</address>
+			</section>
+
+		</section>
+		<!-- Section Contact Fin -->
+	</main>
+
+	<!-- Footer Début -->
+	<footer>
+
+		<!-- Réseaux Sociaux Début -->
+		<div class="socials">
+			<a href="https://www.facebook.com" title="Notre page Facebook" target="_blank"><i class='bx bxl-facebook'></i></a>
+			<a href="https://www.facebook.com" title="Notre profil Instagram" target="_blank"><i class='bx bxl-instagram'></i></a>
+			<a href="https://fr.pinterest.com" title="Notre profil Pinterest" target="_blank"><i class='bx bxl-pinterest'></i></a>
+		</div>
+		<!-- Réseaux Sociaux Fin -->
+
+		<!-- Infos Légales Début -->
+		<div class="legalInfo">
+			<p>
+				&copy; 2024 - Tout droits réservés. <a href="https://www.legalstart.fr/fiches-pratiques/proteger-une-creation/mentions-legales/" target="_blank" title="Ammène sur une page qui explique comment rédiger des mentions légales...">Mentions légales</a> | 
+				<a href="https://www.consentmanager.fr/generateur-de-politique-de-confidentialite/?utm_source=google&utm_medium=native&utm_term=politique%20de%20confidentialit%C3%A9&utm_campaign=google_cmp_fr_generic&gad_source=1&gclid=Cj0KCQiAoae5BhCNARIsADVLzZeZx50cSuzCdA1GVZwkxKwGJYLI1ywvlnn3N7q3AAeoe9vSeeuOLu8aAgeBEALw_wcB" target="_blank" title="Ammène sur un site pour tricher sur la politique de confidentialité lol...">Politique de confidentialité</a>.
+			</p>
+		</div>
+		<!-- Infos Légales Fin -->
+
+		<!-- Lien de Navigation Début -->
+		<div class="navLinks">
+			<a href="galerie.html" title="Vous redirige sur notre galerie photo.">Galerie</a>
+			<a href="contact.html" title="Vous redirige sur un formulaire de contact.">Contact</a>
+			<a href="a-propos.html" title="Vous redirige sur une notre page de présentation.">A Propos</a>
+		</div>
+		<!-- Lien de Navigation Fin -->
+
+	</footer>
+	<!-- Footer Fin -->
+
+	<!-- Temps de chargement en JS -->
+	<div class="loader" id="loader"></div>
+
+	<!-- Lien JS -->
+	<script src="assets/js/script.js" defer></script>
+</body>
+</html>
